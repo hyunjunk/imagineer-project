@@ -6,8 +6,12 @@
 
 dan = int(input("몇 단을 출력 하시겠습니까?"))
 
-if 10 > dan > 2:
+if 10 > dan > 1:
     for num in range(2,10):
         print("{} * {} = {}".format(dan, num, dan * num))
-    else:
+else:
         print("2에서 9사이의 숫자만 입력해주세요.")
+
+
+# for num in range(1,10):
+#     print("{} * {} ={}".format(dan, num, dan * num ))
